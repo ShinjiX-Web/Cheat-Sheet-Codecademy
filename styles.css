@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+
+body {
+  font-family: 'Space Mono', monospace;
+  margin-bottom: 100px;
+  background-image: radial-gradient( circle 610px at 5.2% 51.6%,  rgba(5,8,114,1) 0%, rgba(7,3,53,1) 97.5% );
+}
+
+h1 {
+  text-align: center;
+  margin-top: 70px;
+  background: #7CCFAE;
+  background: linear-gradient(to top left, #7CCFAE 0%, #5744CF 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+h2 {
+  color: yellowgreen;
+  text-align: center;
+}
+
+table {
+  border: 1px solid rgb(228, 218, 233);
+  width: 50%;
+  margin: 0 auto;
+}
+
+thead {
+  background-color: plum;
+}
+
+td {
+  border-top: 1px solid rgb(80, 43, 99);
+  color: aliceblue;
+  text-align: center;
+}
+
+.code {
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  
+}
+
+td, th {
+  padding: 20px;
+}
+
+ h2 table.table-two {
+  margin-top: 100px;
+}
+
+footer {
+  text-align: center;
+  margin-top: 30px;
+  color: antiquewhite;
+}
+
+footer a {
+  text-decoration: none;
+  color: aliceblue;
+}
+
+footer a:hover {
+  color: aqua;
+  cursor: pointer;
+}
